@@ -37,3 +37,14 @@ if (comparisonResult < 0) {
                                   } else {
   console.log("What?! You both have the same name?");
                                   }
+
+const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
+
+function findLongestWord(words) {
+  let count = 0;
+  for (let i = 0; i< words.length; i++){
+    if(words[i])
+    count++;
+  }
+  return count;
+}
